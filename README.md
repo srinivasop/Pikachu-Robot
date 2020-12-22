@@ -13,4 +13,4 @@ News channel as at [Pikachu Updates](https://t.me/pikachubotUpdates)
 # HOW TO SETUP AND DEPLOY
 <a href="https://heroku.com/deploy?template=https://github.com/srinivasop/Pikachu-Robot/blob/master"> <img src="https://www2.assets.heroku.com/assets/elements/elements-buttons-2-4867044559069b937ba0fd078f5604f310a49928bd1b59fb3d2f0ff96e0d97c8.svg" alt="Deploy to Heroku" /></a></p>
 # work in progress
-<a href="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="300" data-original-width="500" height="500" src="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" width="500" /></a></div>
+<a href="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="300" data-original-width="300" height="500" src="https://telegra.ph/file/871a5d71464c77ed5d145.jpg" width="500" /></a></div>
