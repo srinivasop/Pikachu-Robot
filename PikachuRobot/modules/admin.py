@@ -5,18 +5,18 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from SaitamaRobot import DRAGONS, dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
+from PikachuRobot import DRAGONS, dispatcher
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
                                                            can_promote,
                                                            connection_status,
                                                            user_admin,
                                                            ADMIN_CACHE)
 
-from SaitamaRobot.modules.helper_funcs.extraction import (extract_user,
+from PikachuRobot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
+from PikachuRobot.modules.log_channel import loggable
+from PikachuRobot.modules.helper_funcs.alternate import send_message
 
 
 @run_async
