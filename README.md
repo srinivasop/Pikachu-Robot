@@ -7,7 +7,7 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Pikachu_lava_bot](https://t.me/Pikachu_lava_bot).
 
-The Support group can be reached out to at [Eagle union Support](https://t.me/pikachubotsupport), where you can ask for help about [Pikachu_ProBot](https://t.me/pikachuprobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Eagle union Support](https://t.me/pikachubotsupport), where you can ask for help about [Pikachu_lava_bot](https://t.me/Pikachu_lava_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [Pikachu Updates](https://t.me/pikachubotUpdates) 
 # HOW TO SETUP AND DEPLOY
