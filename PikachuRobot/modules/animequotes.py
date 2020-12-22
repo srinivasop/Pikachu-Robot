@@ -1,10 +1,10 @@
 #Made By @Madepranav On Telegram & Github Id Superboyfan
 import html
 import random
-import SaitamaRobot.modules.animequotesstring as animequotesstring
-from SaitamaRobot import dispatcher
+import PikachuRobot.modules.animequotesstring as animequotesstring
+from PikachuRobot import dispatcher
 from telegram import ParseMode, Update
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 
