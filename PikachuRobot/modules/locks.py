@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import SaitamaRobot.modules.sql.locks_sql as sql
-from SaitamaRobot import dispatcher, DRAGONS, LOGGER, REDIS
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.chat_status import (
+import PikachuRobot.modules.sql.locks_sql as sql
+from PikachuRobot import dispatcher, DRAGONS, LOGGER, REDIS
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.connection import connected
+from PikachuRobot.modules.log_channel import loggable
+from PikachuRobot.modules.connection import connected
 
-from SaitamaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from PikachuRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
