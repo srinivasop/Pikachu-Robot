@@ -5,14 +5,14 @@ from telegram.utils.helpers import mention_html
 from telegram import ParseMode , Bot, Update
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 
-from SaitamaRobot import dispatcher, REDIS
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.chat_status import (
+from PikachuRobot import dispatcher, REDIS
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin
 )
-from SaitamaRobot.modules.helper_funcs.extraction import extract_user_and_text
-from SaitamaRobot.modules.helper_funcs.alternate import typing_action
+from PikachuRobot.modules.helper_funcs.extraction import extract_user_and_text
+from PikachuRobot.modules.helper_funcs.alternate import typing_action
 
 
 
