@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import SaitamaRobot.modules.sql.notes_sql as sql
-from SaitamaRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
+import PikachuRobot.modules.sql.notes_sql as sql
+from PikachuRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
 from SaitamaRobot.__main__ import DATA_IMPORT
-from SaitamaRobot.modules.helper_funcs.chat_status import user_admin
-from SaitamaRobot.modules.helper_funcs.alternate import typing_action
+from PikachuRobot.modules.helper_funcs.chat_status import user_admin
+from PikachuRobot.modules.helper_funcs.alternate import typing_action
 
-# from SaitamaRobot.modules.rules import get_rules
-import SaitamaRobot.modules.sql.rules_sql as rulessql
+# from PikachuRobot.modules.rules import get_rules
+import PikachuRobot.modules.sql.rules_sql as rulessql
 
-# from SaitamaRobot.modules.sql import warns_sql as warnssql
-import SaitamaRobot.modules.sql.blacklist_sql as blacklistsql
-from SaitamaRobot.modules.sql import disable_sql as disabledsql
+# from PikachuRobot.modules.sql import warns_sql as warnssql
+import PikachuRobot.modules.sql.blacklist_sql as blacklistsql
+from PikachuRobot.modules.sql import disable_sql as disabledsql
 
-# from SaitamaRobot.modules.sql import cust_filters_sql as filtersql
-# import SaitamaRobot.modules.sql.welcome_sql as welcsql
-import SaitamaRobot.modules.sql.locks_sql as locksql
-from SaitamaRobot.modules.connection import connected
+# from PikachuRobot.modules.sql import cust_filters_sql as filtersql
+# import PikachuRobot.modules.sql.welcome_sql as welcsql
+import PikachuRobot.modules.sql.locks_sql as locksql
+from PikachuRobot.modules.connection import connected
 
 
 @run_async
