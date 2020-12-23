@@ -2,10 +2,10 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.helper_funcs.handlers import (CMD_STARTERS,
+from PikachuRobot import dispatcher
+from PikachuRobot.modules.helper_funcs.handlers import (CMD_STARTERS,
                                                         SpamChecker)
-from SaitamaRobot.modules.helper_funcs.misc import is_module_loaded
+from PikachuRobot.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, RegexHandler)
