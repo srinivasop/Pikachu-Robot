@@ -1,18 +1,18 @@
 import html
 from typing import Optional
 
-import SaitamaRobot.modules.sql.blsticker_sql as sql
-from SaitamaRobot import LOGGER, REDIS, dispatcher
-from SaitamaRobot.modules.connection import connected
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
-from SaitamaRobot.modules.helper_funcs.chat_status import (user_admin,
+import PikachuRobot.modules.sql.blsticker_sql as sql
+from PikachuRobot import LOGGER, REDIS, dispatcher
+from PikachuRobot.modules.connection import connected
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.helper_funcs.alternate import send_message
+from PikachuRobot.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from SaitamaRobot.modules.helper_funcs.misc import split_message
-from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
+from PikachuRobot.modules.helper_funcs.misc import split_message
+from PikachuRobot.modules.helper_funcs.string_handling import extract_time
 
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.warns import warn
+from PikachuRobot.modules.log_channel import loggable
+from PikachuRobot.modules.warns import warn
 from telegram import (Chat, Message, ParseMode, Update, User, ChatPermissions)
 from telegram.error import BadRequest
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
