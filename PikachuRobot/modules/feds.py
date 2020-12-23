@@ -6,16 +6,16 @@ import time
 import uuid
 from io import BytesIO
 
-import SaitamaRobot.modules.sql.feds_sql as sql
-from SaitamaRobot import (EVENT_LOGS, LOGGER, OWNER_ID, DRAGONS, TIGERS, WOLVES,
+import PikachuRobot.modules.sql.feds_sql as sql
+from PikachuRobot import (EVENT_LOGS, LOGGER, OWNER_ID, DRAGONS, TIGERS, WOLVES,
                           dispatcher)
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaitamaRobot.modules.helper_funcs.extraction import (extract_unt_fedban,
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.helper_funcs.alternate import send_message
+from PikachuRobot.modules.helper_funcs.chat_status import is_user_admin
+from PikachuRobot.modules.helper_funcs.extraction import (extract_unt_fedban,
                                                           extract_user,
                                                           extract_user_fban)
-from SaitamaRobot.modules.helper_funcs.string_handling import markdown_parser
+from PikachuRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, MessageEntity,
                       ParseMode, Update)
 from telegram.error import BadRequest, TelegramError, Unauthorized
