@@ -6,14 +6,14 @@ from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from SaitamaRobot import dispatcher, REDIS, DRAGONS
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin
-from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.sql import antiflood_sql as sql
-from SaitamaRobot.modules.connection import connected
+from PikachuRobot import dispatcher, REDIS, DRAGONS
+from PikachuRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin
+from PikachuRobot.modules.helper_funcs.string_handling import extract_time
+from PikachuRobot.modules.log_channel import loggable
+from PikachuRobot.modules.sql import antiflood_sql as sql
+from PikachuRobot.modules.connection import connected
 
-from SaitamaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from PikachuRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 FLOOD_GROUP = 3
 
