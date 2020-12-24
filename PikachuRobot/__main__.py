@@ -12,8 +12,8 @@ from telegram.error import BadRequest, ChatMigrated, NetworkError,TelegramError,
 from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryHandler, CallbackContext
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop
 from telegram.utils.helpers import escape_markdown
-from SaitamaRobot.modules.helper_funcs.admin_rights import user_can_ban
-from SaitamaRobot.modules.helper_funcs.readable_time import get_readable_time
+from PikachuRobot.modules.helper_funcs.admin_rights import user_can_ban
+from PikachuRobot.modules.helper_funcs.readable_time import get_readable_time
 
 from PikachuRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, REPOSITORY, WHITELIST_CHATS, BL_CHATS,
@@ -30,7 +30,7 @@ from PikachuRobot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hello there,The name's [𝙎𝙪𝙯𝙪𝙮𝙖](https://telegra.ph/file/5bcbee541234987308553.jpg)
+Hello there,The name's [Pikachu](https://telegra.ph/file/871a5d71464c77ed5d145.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -45,7 +45,7 @@ buttons = [
     ],
     [        
         InlineKeyboardButton(
-        text="💫 Add Suzuya to your group 💫", url="t.me/suzuya_probot?startgroup=true"
+        text="💫 Add Pikachu to your group 💫", url="t.me/suzuya_probot?startgroup=true"
         ),
     ]
 ]
@@ -64,9 +64,6 @@ HELP_STRINGS = f"""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -327,9 +324,9 @@ def SaitamaRobot_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*Hi again! The name's {dispatcher.bot.first_name}. \n\nAs  You I'm An Anime Themed Group Management Bot.* "
-                 f"\n\n Join [Updates Channel](https://t.me/SuzuyaUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}."
+                 f"\n\n Join [Updates Channel](https://t.me/pikachubotupdates) To Keep Yourself Updated About {dispatcher.bot.first_name}."
                  f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-                 f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features. [◖⚆ᴥ⚆◗](https://telegra.ph/file/7f6a4d656e89553340af9.jpg)."
+                 f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features. [◖⚆ᴥ⚆◗](https://telegra.ph/file/871a5d71464c77ed5d145.jpg)."
                  f"\n\nYou Can Know More About Me By Clicking The Below Buttons.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -374,7 +371,7 @@ def SaitamaRobot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is A Powerful Bot For Managing Groups With Additional Features.*"
-                 f"\n\nFork Of [Shoko](https://github.com/gizmostuffin/Shoko) + [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot)."
+                 f"\n\nhelp (credits) Of [Shoko](https://github.com/gizmostuffin/Shoko) + [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot)."
                  f"\n\n{dispatcher.bot.first_name}'s Licensed Under The GNU _(General Public License v3.0)_"
                  f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
