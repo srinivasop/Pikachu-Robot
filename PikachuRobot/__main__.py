@@ -15,16 +15,16 @@ from telegram.utils.helpers import escape_markdown
 from SaitamaRobot.modules.helper_funcs.admin_rights import user_can_ban
 from SaitamaRobot.modules.helper_funcs.readable_time import get_readable_time
 
-from SaitamaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from PikachuRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, REPOSITORY, WHITELIST_CHATS, BL_CHATS,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SaitamaRobot.modules import ALL_MODULES
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaitamaRobot.modules.helper_funcs.misc import paginate_modules
-from SaitamaRobot.modules.helper_funcs.alternate import typing_action
+from PikachuRobot.modules import ALL_MODULES
+from PikachuRobot.modules.helper_funcs.chat_status import is_user_admin
+from PikachuRobot.modules.helper_funcs.misc import paginate_modules
+from PikachuRobot.modules.helper_funcs.alternate import typing_action
 
 
 
