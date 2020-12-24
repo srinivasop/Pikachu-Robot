@@ -7,7 +7,7 @@ from telegram.ext import CommandHandler, run_async
 
 import PikachuRobot.modules.sql.notes_sql as sql
 from PikachuRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
-from SaitamaRobot.__main__ import DATA_IMPORT
+from PikachuRobot.__main__ import DATA_IMPORT
 from PikachuRobot.modules.helper_funcs.chat_status import user_admin
 from PikachuRobot.modules.helper_funcs.alternate import typing_action
 
