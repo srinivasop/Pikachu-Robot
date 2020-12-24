@@ -13,8 +13,8 @@ from telegram import TelegramError
 from telegram.ext import run_async, CallbackContext, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-from SaitamaRobot import dispatcher, REDIS
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler 
+from PikachuRobot import dispatcher, REDIS
+from PikachuRobot.modules.disable import DisableAbleCommandHandler 
 
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
