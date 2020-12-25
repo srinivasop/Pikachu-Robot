@@ -1,7 +1,7 @@
 import math
 
 import pynewtonmath as newton
-from PikachuRobot import dispatcher
+from  PikachuRobot import dispatcher
 from PikachuRobot.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
