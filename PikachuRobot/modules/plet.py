@@ -9,7 +9,7 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
 
 from telegram.ext import Filters, MessageHandler, run_async
 from PikachuRobot.modules.helper_funcs.extraction import extract_user_and_text
-from PikachuRobot SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from PikachuRobot.modules.disable import DisableAbleCommandHandler
 from PikachuRobot import dispatcher
 from PikachuRobot.modules.thonkify_dict import thonkifydict
 
