@@ -90,7 +90,7 @@ def unload(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML)
 
     try:
-        imported_module = importlib.import_module("SaitamaRobot.modules." +
+        imported_module = importlib.import_module("PikachuRobot.modules." +
                                                   text)
     except:
         unload_messasge.edit_text("Does that module even exist?")
