@@ -20,7 +20,7 @@ jobs:
 
           find: "SaitamaRobot"
 
-          replace: "PikachuRobot"
+          replace: ""
 
       - name: Create Pull Request
 
