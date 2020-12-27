@@ -174,6 +174,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
+#example of tg id #fixed
 DEV_USERS.add(1100231654)
 
 if not SPAMWATCH_API:
