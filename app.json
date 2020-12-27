@@ -19,7 +19,7 @@
    ],
    "env": {
       "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
+         "description": "Your bot token. Get one from @BotFather dude",
          "required": true,
          "value": ""
       },
